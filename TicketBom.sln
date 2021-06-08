@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBom.Api", "TicketBom.Api\TicketBom.Api.csproj", "{7BC5ADB2-9601-4285-91B8-9491980E55B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBom.Domain", "TicketBom.Domain\TicketBom.Domain.csproj", "{3D0CBB93-C84D-4C65-87D3-04E6D65AF13C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBom.Application", "TicketBom.Application\TicketBom.Application.csproj", "{5559D60D-49EB-46C2-A6CE-6F4983E695C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketBom.Infra", "TicketBom.Infra\TicketBom.Infra.csproj", "{7EA3B5ED-379D-4E90-8770-266C46EA3B4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TicketBom.DataBase", "TicketBom.DataBase", "{92C8DB52-B082-4581-B46E-259417230C46}"
+	ProjectSection(SolutionItems) = preProject
+		seed.sql = seed.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBom.Test", "..\TicketBom\TicketBom.Test\TicketBom.Test.csproj", "{21AF055A-D054-4B2D-AFEC-41FE2289627B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC5ADB2-9601-4285-91B8-9491980E55B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC5ADB2-9601-4285-91B8-9491980E55B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC5ADB2-9601-4285-91B8-9491980E55B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC5ADB2-9601-4285-91B8-9491980E55B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0CBB93-C84D-4C65-87D3-04E6D65AF13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0CBB93-C84D-4C65-87D3-04E6D65AF13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0CBB93-C84D-4C65-87D3-04E6D65AF13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0CBB93-C84D-4C65-87D3-04E6D65AF13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5559D60D-49EB-46C2-A6CE-6F4983E695C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5559D60D-49EB-46C2-A6CE-6F4983E695C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5559D60D-49EB-46C2-A6CE-6F4983E695C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5559D60D-49EB-46C2-A6CE-6F4983E695C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA3B5ED-379D-4E90-8770-266C46EA3B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA3B5ED-379D-4E90-8770-266C46EA3B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA3B5ED-379D-4E90-8770-266C46EA3B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA3B5ED-379D-4E90-8770-266C46EA3B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21AF055A-D054-4B2D-AFEC-41FE2289627B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21AF055A-D054-4B2D-AFEC-41FE2289627B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21AF055A-D054-4B2D-AFEC-41FE2289627B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21AF055A-D054-4B2D-AFEC-41FE2289627B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9EC6B82-CAA7-4B1B-8B6B-11087C47C0C9}
+	EndGlobalSection
+EndGlobal
